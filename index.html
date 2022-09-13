@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Site</title>
+
+    <!-- Css Link-->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Bootstrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+
+
+
+<body style="height: 200vh;">
+
+    <!--Navbar-->
+      <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo-medical-site.png" width="70" height="50" class="d-inline-block align-top" alt="">
+            <span class="site-name">MedicalSite</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About_us">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#services">General Treatment</a>
+                  <a class="dropdown-item" href="#services">Ear Treatment</a>
+                  <a class="dropdown-item" href="#services">Vision Problems</a>
+                  <a class="dropdown-item" href="#services">Heart Surgery</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#client">Client</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+           
+            <div class="button">
+              <a href="#"><button class="btn-login" type="submit">LogIn</button></a>
+              <a href="#"><button class="btn-login" type="submit">SignUp</button></a>
+            </div>
+
+          </div>
+        </nav>
+      </header>
+
+
+
+    <!--Home section-->
+    <section class="home d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 home__col d-flex flex-column justify-content-center">
+            <h1 class="home-header">We provide <span>medical</span><br> services that you can<span> trust !</span></h1>
+            <p class="home-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Nam itaque quo ipsam.</p>
+            <div class="row">
+              <div class="col">
+                <a class="btn-link" href=""><button class="home_first_btn">Explore More</button></a>
+              </div>
+              <div class="col">
+                <a class="btn-link" href=""><button class="home_first_btn">Contact Us</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="home-img" src="assets/img/doctors.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--About us section-->
+    <section class="About_us" id="About_us">
+      <div class="container align-content-center">
+        <div class="row">
+          <div class="col-md-6 about__first align-content-center">
+            <img src="assets/img/about-us1.PNG" alt="" class="aboutus_img1">
+            <img src="assets/img/about-us2.jpg" alt="" class="aboutus_img2">
+          </div>
+          <div class="col-md-6 about__second">
+            <h1 class="aboutus-header">About Us</h1>
+            <h2 class="aboutus-title">We’re Setting the Standards in Research & Clinical Care</h2>
+            <p class="aboutus-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aperiam ab cupiditate distinctio iste deserunt aspernatur,</p>
+            <div class="row">
+              <div class="col">
+                <div class="aboutus-item1"><i class='bx bx-check' style='color:#00d6a3'  ></i><span class="aboutus-1">Adult Trauma center</span></div>
+                <div class="aboutus-item1"><i class='bx bx-check' style='color:#00d6a3'  ></i><span class="aboutus-1">Brithing and lacation class</span></div>
+                <div class="aboutus-item1"><i class='bx bx-check' style='color:#00d6a3'  ></i><span class="aboutus-1">Dental and oral surgery</span></div>
+              </div>
+              <div class="col">
+                <div class="aboutus-item1"><i class='bx bx-check' style='color:#00d6a3'  ></i><span class="aboutus-1">Adult Trauma center</span></div>
+                <div class="aboutus-item1"><i class='bx bx-check' style='color:#00d6a3'  ></i><span class="aboutus-1">Brithing and lacation class</span></div>
+                <div class="aboutus-item1"><i class='bx bx-check' style='color:#00d6a3'  ></i><span class="aboutus-1">Dental and oral surgery</span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <a class="btn-link" href=""><button class="aboutus-first-btn">Explore More</button></a>
+              </div>
+              <div class="col">
+                <a class="btn-link" href=""><button class="aboutus-first-btn">Contact Us</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Services section-->
+    <section class="services" id="services">
+      <div class="section-header align-content-center" id="section-header">
+          <h1 class="services-title">Our Services</h1>
+          <p class="services-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt dolorem quisquam, enim excepturi </p>
+      </div>
+      <div class="container services-container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box">
+              <div class="icon"><i class='bx bx-first-aid' style='color:#00d6a3'></i></div>
+              <h1 class="title">General Treatment</h1>
+              <p class="p">Paragraph of text beneath the heading to explain the heading.Here is just a bit more text.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="box">
+              <div class="icon"><i class='bx bx-clinic' style='color:#00d6a3'></i></div>
+              <h1 class="title">Ear Treatment</h1>
+              <p class="p">Paragraph of text beneath the heading to explain the heading.Here is just a bit more text.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="box">
+              <div class="icon"><i class='bx bx-capsule' style='color:#00d6a3'></i></div>
+              <h1 class="title">Vision Problems</h1>
+              <p class="p">Paragraph of text beneath the heading to explain the heading.Here is just a bit more text.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="box">
+              <div class="icon"><i class='bx bx-heart' style='color:#00d6a3' ></i></div>
+              <h1 class="title">Heart Surgery</h1>
+              <p class="p">Paragraph of text beneath the heading to explain the heading.Here is just a bit more text.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+        
+  
+    </section>
+
+
+    <!--Team section-->
+    <section class="Team" id="Team">
+      <div class="container">
+        <div class="team-header">
+          <h1 class="section_header">Meet Our Doctors</h1>
+          <p class="section_title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat molestiae,</p>
+        </div>
+      </div>
+
+
+      <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="member">
+            <div class="member-img">
+              <img src="assets/img/Team/doctor 1.jpg" class="img-fluid member1" alt="">
+              <div class="social">
+                  <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h1 class="member-name">Dr.Walter White</h1>
+              <span class="member-subname">Orthopedics</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="member">
+            <div class="member-img">
+              <img src="assets/img/Team/doctor 2.jpg" class="img-fluid member2" alt="">
+              <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h1 class="member-name">Dr.Vivi Marini</h1>
+              <span class="member-subname">Orthopedics</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="member">
+            <div class="member-img">
+              <img src="assets/img/Team/doctor 3.png" class="img-fluid member3" alt="">
+              <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h1 class="member-name">Dr.Ali White</h1>
+              <span class="member-subname">Orthopedics</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="member">
+            <div class="member-img">
+              <img src="assets/img/Team/doctor 4.jpg" class="img-fluid member4" alt="">
+              <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h1 class="member-name">Dr.Maria Piter</h1>
+              <span class="member-subname">Orthopedics</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="member">
+            <div class="member-img">
+              <img src="assets/img/Team/doctor 5.png" class="img-fluid member4" alt="">
+              <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h1 class="member-name">Dr.Sam Piter</h1>
+              <span class="member-subname">Orthopedics</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="member">
+            <div class="member-img">
+              <img src="assets/img/Team/doctor 6.png" class="img-fluid member4" alt="">
+              <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h1 class="member-name">Dr.Lara Piter</h1>
+              <span class="member-subname">Orthopedics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+    </section>
+
+
+    <!--Client section-->
+    <section class="client" id="client">
+      <div class="client-header">
+        <h1 class="section_header">See what our client say</h1>
+        <p class="section_title">Happy Client</p>
+      </div>
+
+
+<!--swiper1-->
+
+
+<div class="swiper mySwiper1">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide swiper-slide1">
+      <div class="first-client">
+        <div class="parent-img-div">
+          <img src="assets/img/client/client1.png" class="img-fluid client-img" alt="">
+        </div>
+        <h3 class="client-name">Maya Solo</h3>
+        <div class="rating-stars">
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star-half' style='color:#00d6a3'  ></i></span>
+        </div>
+        <p class="client-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, at deleniti, voluptatum rem consequuntur omnis porro saepe nemo placeat odit nobis vero rerum quas quisquam dolorum, reiciendis ducimus praesentium tenetur.</p>
+      </div>
+
+    </div>
+    <div class="swiper-slide swiper-slide1">
+      <div class="first-client">
+        <div class="parent-img-div">
+          <img src="assets/img/client/client2.png" class="img-fluid client-img" alt="">
+        </div>
+        <h3 class="client-name">Sam Solo</h3>
+        <div class="rating-stars">
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star-half' style='color:#00d6a3'  ></i></span>
+        </div>
+        <p class="client-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, at deleniti, voluptatum rem consequuntur omnis porro saepe nemo placeat odit nobis vero rerum quas quisquam dolorum, reiciendis ducimus praesentium tenetur.</p>
+      </div>
+
+    </div>
+    <div class="swiper-slide swiper-slide1">
+      <div class="first-client">
+        <div class="parent-img-div">
+          <img src="assets/img/client/client3.png" class="img-fluid client-img" alt="">
+        </div>
+        <h3 class="client-name">Lona Solo</h3>
+        <div class="rating-stars">
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star' style='color:#00d6a3'></i></span>
+          <span class="star"><i class='bx bxs-star-half' style='color:#00d6a3'  ></i></span>
+        </div>
+        <p class="client-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, at deleniti, voluptatum rem consequuntur omnis porro saepe nemo placeat odit nobis vero rerum quas quisquam dolorum, reiciendis ducimus praesentium tenetur.</p>
+      </div>
+
+    </div>
+  
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+    </section>
+
+
+    <!--Counter section-->
+    <section class="counter" id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="counter-box">
+              <i class='bx bx-trophy counter-icon'></i>
+              <h4 class="counter-header">Award</h4>
+              <span data-purecounter-start="0" data-purecounter-end="205" data-purecounter-duration="1" class="purecounter"></span>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="counter-box">
+              <i class='bx bx-male counter-icon'></i>
+              <h4 class="counter-header">Staff</h4>
+              <span data-purecounter-start="0" data-purecounter-end="345" data-purecounter-duration="1" class="purecounter"></span>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="counter-box">
+              <i class='bx bx-heading counter-icon'></i>
+              <h4 class="counter-header">Hospital Rooms</h4>
+              <span data-purecounter-start="0" data-purecounter-end="528" data-purecounter-duration="1" class="purecounter"></span>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="counter-box">
+              <i class='bx bx-clinic counter-icon'></i>
+              <h4 class="counter-header">Machines</h4>
+              <span data-purecounter-start="0" data-purecounter-end="124" data-purecounter-duration="1" class="purecounter"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!--contact us section-->
+    <section class="contactus" id="contactus">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 contactus-first">
+            <h1 class="contactus_header">Contact Us</h1>
+            <p class="contactus_title">Need to Keep in touch with us?Please fill out these form<br> Or contact us at the following Social media</p>
+            <div class="social-contactus">
+              <a href="https://www.facebook.com/"><i class='bx bxl-facebook ' ></i></a>
+              <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter" ></i></a>
+              <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram" ></i></a>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 contactus-second">
+
+            <div class="row">
+              <div class="col">
+                <div class="form_box">
+                  <label for="fname">First name:</label>
+                  <input type="text" id="fname" class="fname" name="" value="" placeholder="First Name">
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="form_box">
+                  <label for="lname">Last name:</label>
+                  <input type="text" id="lname" name="lname" placeholder="Please Enter your Last Name">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="form_box">
+                  <label for="telNo">Phone number:</label><br>
+                  <input id="telNo" name="telNo" type="tel" >
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="form_box">
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" placeholder="name@example.com">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <input type="submit" value="Submit" class="form_btn">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--footer section-->
+    <div class="footer-section" id="footer-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <a href="#"><img src="assets/img/logo-medical-site-footer.png" class="footer-img"></a>
+            <p class="footer-p">Happy to contact us</p>
+            <div class="social-footer"> 
+              <a href="https://www.facebook.com/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+              <a href="https://www.instagram.com/?hl=en" class="footer__social"><i class='bx bxl-instagram'></i></a>
+              <a href="https://twitter.com/?lang=en" class="footer__social"><i class='bx bxl-twitter'></i></a> 
+            </div> 
+          </div>
+
+          <div class="col-md-3">
+            <h3 class="footer-services">Services</h3>
+            <ul class="footer-services-ul">
+              <li><a href="#services" class="footer-services-link">General Treatment</a></li>
+              <li><a href="#services" class="footer-services-link">Ear Treatment</a></li>
+              <li><a href="#services" class="footer-services-link">Vision Problems</a></li>
+              <li><a href="#services" class="footer-services-link">Heart Surgery</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h3 class="footer-services">Information</h3>
+            <ul class="footer-services-ul">
+              <li><a href="#About_us" class="footer-services-link">About us</a></li>
+              <li><a href="#contactus" class="footer-services-link">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h3 class="footer-services">Adress</h3>
+            <ul class="footer-services-ul">
+              <li><a href="" class="footer-services-link">Loreem Ipsun</a></li>
+              <li><a href="" class="footer-services-link">lorem - 789 - st</a></li>
+            </ul>
+            <div class="search-box">
+              <input type="text" placeholder="search " class="search"/>
+              <a href="#" class="searchicon"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 footer_terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a> 
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+          <div class="col-md-6 footer__rights__details text-center">
+            <p class="footer__copy">&#169; 2022 Maysam Sarradeh. All rigths reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCROLL TOP-->
+    <a href="#" class="scrolltop" id="scroll-top"> 
+      <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a> 
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Main Js-->
+    <script src="assets/index.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--counter JS-->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+  </body>
+</html>
